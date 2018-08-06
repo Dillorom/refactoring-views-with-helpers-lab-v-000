@@ -4,8 +4,8 @@ module ArtistsHelper
       <%= link_to "Add Artist", song_edit_path %>
     else
       <%= link_to "Artist", artists_path %>
-    
+
     end
-      
+
   end
 end
